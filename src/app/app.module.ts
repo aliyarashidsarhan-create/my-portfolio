@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 
 @NgModule({
@@ -13,7 +16,10 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     HeaderComponent,
     ProfileComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
